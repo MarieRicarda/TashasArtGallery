@@ -1,0 +1,110 @@
+h1,
+h2 {
+  font-family: "Tangerine", cursive;
+  text-align: center;
+  color: #5c5345;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+h3,
+h4 {
+  font-family: "Wire One", sans-serif;
+  text-align: center;
+  color: #071e22;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+hr {
+  display: block;
+  width: 0%;
+  min-width: 30%;
+  max-width: 100%;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.second-linebreak {
+  display: block;
+  width: 0%;
+  min-width: 80%;
+  max-width: 100%;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 3px;
+  color: #071e22;
+}
+
+.hr {
+  color: #000000;
+}
+
+a {
+  font-size: 30px;
+  color: #515052;
+  margin: 20px;
+  display: block;
+  text-decoration: none;
+  text-align: right;
+  display: inline-block;
+  padding: 15px;
+  font-family: "Wire One", sans-serif;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #ff006e; /*#ff9f1c*/ /*#44c03a;*/
+}
+
+.first,
+.second,
+.third,
+.fourth {
+  display: flex;
+  /*width: 33.3%*/
+  padding: 5px;
+  width: 1000px;
+  height: 300px;
+  border: 15px;
+  padding: 70px;
+  margin: 100px;
+  font-family: "Wire One", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+}
+
+.first-description {
+  margin-left: 100px;
+  margin-top: 100px;
+  font-size: 30px;
+}
+
+h2 {
+  clear: both;
+}
+
+body {
+  background: #cdeac0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ICONS Font- awesome Icons Free,
+easy to running,
+simple syntax */ .fa-facebook-square,
+.fa-instagram {
+  color: #5c5345;
+  float: right;
+  margin: 1%;
+}
