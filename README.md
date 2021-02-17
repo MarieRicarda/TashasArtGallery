@@ -1,2 +1,0 @@
-# TashasArtGallery
-My first website!
