@@ -1,0 +1,76 @@
+h1,
+h2 {
+  font-family: "Tangerine", cursive;
+  text-align: center;
+  color: black;
+  font-weight: 200;
+}
+
+hr {
+  display: block;
+  width: 0%;
+  min-width: 30%;
+  max-width: 100%;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+body {
+  background: #f2eab4;
+}
+
+/* :root root element of the document html elements 
+general styles css varibles */
+
+/* 1rem = 16px */
+
+/* h1 {
+  font-size: 3rem;
+} */
+
+/* transform: translate(), scale(), rotate(), skew()*/
+
+/* transistion: change over time
+transistion-property:
+transistion-doration: */
+
+/* how the transition takes place
+transition-timing-function:
+transition:all 3s here 5s;
+ease = default 
+ease = slow start, fast, slow end
+linear = same speed start to end
+ease-in = slow start
+ease-out = slow end
+ease-in-out = slow start, fast, slow end */
+
+/* Transition 0 = 100% 
+ANIMATION 0 1% 2% ..... 100% 
+*/
+
+/* animation-fill-mode:what values are applied by the animation outside the time it is executing */
+
+/* 
+CSS VARIABLES AKA Customs Properties hold a value and reuses it
+--varName:value 
+property:var(--Name)
+scope 
+:root{} === global 
+element === local 
+any property
+*/
+
+/*ICONS Font- awesome Icons Free,
+easy to running,
+simple syntax */
+
+.fa-facebook-square,
+.fa-instagram {
+  color: #5c5345;
+  float: right;
+  margin: 1%;
+}
